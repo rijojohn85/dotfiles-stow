@@ -1,0 +1,18 @@
+alias  l='eza -l  --icons'
+alias ls='eza -1  --icons'
+alias ll='eza -la --icons'
+alias ld='eza -lD --icons'
+alias cd..="cd .."
+alias cd2="cd../.."
+
+alias in='sudo pacman -S' # install package
+alias un='sudo pacman -Rns' # uninstall package
+alias up='paru -Syu' # update system/package/aur
+alias pl='paru -Qs' # list installed package
+alias pa='paru -Ss' # list availabe package
+alias pc='sudo pacman -Sc' # remove unused cache
+alias po='pacman -Qtdq | sudo pacman -Rns -' # remove unused packages, also try > pacman -Qqd | pacman -Rsu --print -
+alias vc='code'  # gui code editor
+alias reflect='sudo reflector -c "India" -f 12 -l 10 -n 12 --save /etc/pacman.d/mirrorlist'
+alias sshdesktop='ssh rijojohn@192.168.29.233'
+alias hx='helix'
